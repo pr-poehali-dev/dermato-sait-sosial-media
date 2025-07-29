@@ -94,7 +94,7 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl font-heading font-bold text-gray-800 mb-6">
-              Забота о коже с заботой о душе. Современная дерматология с человеческим лицом.
+              Забота о коже с заботой о душе.
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Моя задача — найти истинную причину и вместе с вами вернуть коже здоровье, а вам уверенность и комфорт. Мой подход — комплексный: лечу не только кожу, но и то, что скрывается за её состоянием.
@@ -147,12 +147,12 @@ export default function Index() {
                     <span className="text-gray-700">Более 5000 довольных пациентов</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="BookOpen" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700 px-[7px]">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
+                    <Icon name="BookOpen" className="text-primary mr-3" size={32} />
+                    <span className="text-gray-700">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Heart" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700 px-2">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
+                    <Icon name="Heart" className="text-primary mr-3" size={32} />
+                    <span className="text-gray-700">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
                   </div>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function Index() {
             <div className="text-center mb-16">
               <Badge className="mb-4 bg-primary/10 text-primary">Услуги</Badge>
               <h3 className="text-4xl font-heading font-bold text-gray-800 mb-4">
-                Наши специализации
+                Мои специализации
               </h3>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Полный спектр дерматологических услуг с использованием современного оборудования

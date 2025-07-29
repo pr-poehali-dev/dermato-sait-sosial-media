@@ -119,20 +119,20 @@ export default function Index() {
               <div>
                 <Badge className="mb-4 bg-primary/10 text-primary">О враче</Badge>
                 <h3 className="text-4xl font-heading font-bold text-gray-800 mb-6">
-                  Доктор Анна Петрова
+                  Галина Геннадьевна
                 </h3>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Врач-дерматовенеролог высшей категории с 15-летним опытом работы. 
+                  Врач-дерматовенеролог высшей категории с 25-летним опытом работы. 
                   Кандидат медицинских наук, член Российского общества дерматовенерологов.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Icon name="GraduationCap" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700">РНИМУ им. Н.И. Пирогова, 2008</span>
+                    <span className="text-gray-700">БГМУ</span>
                   </div>
                   <div className="flex items-center">
                     <Icon name="Award" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700">Специализация: дерматология, косметология</span>
+                    <span className="text-gray-700">Специализация: дерматология, косметология, психология</span>
                   </div>
                   <div className="flex items-center">
                     <Icon name="Users" className="text-primary mr-3" size={24} />
@@ -276,7 +276,7 @@ export default function Index() {
               <span className="text-xl font-heading font-bold">Ядарика</span>
             </div>
             <p className="text-gray-400">
-              © 2024 Ядарика. Все права защищены.
+              © 2025 Ядарика. Все права защищены.
             </p>
           </div>
         </div>

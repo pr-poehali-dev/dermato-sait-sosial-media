@@ -148,7 +148,7 @@ export default function Index() {
                   </div>
                   <div className="flex items-center">
                     <Icon name="BookOpen" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
+                    <span className="text-gray-700 px-[7px]">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
                   </div>
                   <div className="flex items-center">
                     <Icon name="Heart" className="text-primary mr-3" size={24} />

@@ -111,7 +111,7 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src="/img/18bad8cc-3917-462b-b761-95af01c7b2eb.jpg" 
+                  src="https://cdn.poehali.dev/files/6b9653c3-6df2-48e8-a4cc-d9d247e2613e.jpg" 
                   alt="Доктор дерматолог" 
                   className="w-full rounded-2xl shadow-lg"
                 />

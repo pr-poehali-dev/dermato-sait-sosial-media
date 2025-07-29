@@ -152,7 +152,7 @@ export default function Index() {
                   </div>
                   <div className="flex items-center">
                     <Icon name="Heart" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
+                    <span className="text-gray-700 px-2">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
                   </div>
                 </div>
               </div>

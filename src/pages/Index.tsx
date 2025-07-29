@@ -40,17 +40,17 @@ export default function Index() {
   const reviews = [
     {
       name: "Мария К.",
-      text: "Очень довольна результатом лечения! Доктор внимательная и профессиональная.",
+      text: "Галина Геннадьевна добрейшей души человек и очень чуткий доктор, которому не всё равно на пациента. У неё комплексный подход к лечению, и она всегда доводит дело до полного выздоровления, не бросает на полпути. Я лечила у неё акне, до этого обращалась к другим врачам, но всё было безуспешно, постоянные рецидивы и разочарования. Только с Галиной Геннадьевной я увидела результат. Теперь кожа чистая, а главное, я снова чувствую себя уверенно. Искренне советую её всем, кто ищет грамотного и заботливого специалиста!",
       rating: 5
     },
     {
       name: "Андрей П.", 
-      text: "Отличный специалист, быстро поставил диагноз и назначил эффективное лечение.",
+      text: "Был на приёме у Галины Геннадьевны. Она внимательно выслушала, вникла в мою ситуацию и назначила нужные анализы. По результатам сразу стало понятно, почему у меня уже несколько месяцев не проходила сыпь, которая не поддавалась лечению у дерматолога по месту жительства. Я очень благодарен Галине Геннадьевне! Благодаря её профессионализму я теперь спокойно сплю по ночам, меня больше не беспокоит ни зуд, ни сыпь. Огромное спасибо!",
       rating: 5
     },
     {
       name: "Елена С.",
-      text: "Прекрасная атмосфера в клинике, современное оборудование. Рекомендую!",
+      text: "Спасибо врачу Тюлис Галине Геннадьевне за её внимательное и доброе отношение! Была на приеме не только я, но и мои дети. Очень внимательная, чуткая, сразу вникает в корень проблемы и тем самым мы получили быстрый эффект выздоровления! Благодарю вас, здоровья вам и успехов в вашей работе, хороших и благодарных пациентов!",
       rating: 5
     }
   ];
@@ -62,7 +62,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Icon name="Heart" className="text-primary" size={32} />
+              <img src="https://cdn.poehali.dev/files/81bfea02-58ea-4839-9197-4172df74db6a.jpg" alt="Ядарика логотип" className="w-12 h-12" />
               <h1 className="text-2xl font-heading font-bold text-gray-800">Ядарика</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -94,11 +94,10 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl font-heading font-bold text-gray-800 mb-6">
-              Забота о вашей коже — наша миссия
+              Забота о коже с заботой о душе. Современная дерматология с человеческим лицом.
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Современная дерматология с индивидуальным подходом к каждому пациенту. 
-              Опыт работы более 25 лет, тысячи довольных пациентов.
+              Моя задача — найти истинную причину и вместе с вами вернуть коже здоровье, а вам уверенность и комфорт. Мой подход — комплексный: лечу не только кожу, но и то, что скрывается за её состоянием.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium px-8" onClick={() => window.open('https://wa.me/79173541792', '_blank')}>
@@ -132,13 +131,12 @@ export default function Index() {
                   Галина Тюлис
                 </h3>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Врач-дерматовенеролог высшей категории с 25-летним опытом работы. 
-                  Кандидат медицинских наук, член Российского общества дерматовенерологов.
+                  Меня зовут Галина Тюлис. Более 25 лет я помогаю людям чувствовать себя здоровыми, красивыми и уверенными в себе. Я не только дерматолог, но и специалист по психосоматике: верю, что нельзя лечить тело, не леча душу. Поэтому каждый приём — это забота о вас изнутри и снаружи! Постоянно учусь, чтобы мои пациенты получали максимальный результат.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Icon name="GraduationCap" className="text-primary mr-3" size={24} />
-                    <span className="text-gray-700">БГМУ</span>
+                    <span className="text-gray-700">БГМУ, 1995 г</span>
                   </div>
                   <div className="flex items-center">
                     <Icon name="Award" className="text-primary mr-3" size={24} />
@@ -147,6 +145,14 @@ export default function Index() {
                   <div className="flex items-center">
                     <Icon name="Users" className="text-primary mr-3" size={24} />
                     <span className="text-gray-700">Более 5000 довольных пациентов</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Icon name="BookOpen" className="text-primary mr-3" size={24} />
+                    <span className="text-gray-700">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Icon name="Heart" className="text-primary mr-3" size={24} />
+                    <span className="text-gray-700">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
                   </div>
                 </div>
               </div>
@@ -279,7 +285,7 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <Icon name="Heart" className="text-primary" size={24} />
+              <img src="https://cdn.poehali.dev/files/81bfea02-58ea-4839-9197-4172df74db6a.jpg" alt="Ядарика логотип" className="w-8 h-8" />
               <span className="text-xl font-heading font-bold">Ядарика</span>
             </div>
             <p className="text-gray-400">

@@ -66,13 +66,23 @@ export default function Index() {
               <h1 className="text-2xl font-heading font-bold text-gray-800">Ядарика</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
-              {['Главная', 'Услуги', 'О враче', 'Отзывы', 'Контакты'].map((item) => (
-                <a key={item} href={`#${item.toLowerCase()}`} className="text-gray-600 hover:text-primary transition-colors">
-                  {item}
-                </a>
-              ))}
+              <a href="#главная" onClick={(e) => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }} className="text-gray-600 hover:text-primary transition-colors">
+                Главная
+              </a>
+              <a href="#услуги" className="text-gray-600 hover:text-primary transition-colors">
+                Услуги
+              </a>
+              <a href="#о-враче" onClick={(e) => { e.preventDefault(); document.getElementById('о-враче')?.scrollIntoView({behavior: 'smooth'}); }} className="text-gray-600 hover:text-primary transition-colors">
+                О враче
+              </a>
+              <a href="#отзывы" className="text-gray-600 hover:text-primary transition-colors">
+                Отзывы
+              </a>
+              <a href="#контакты" className="text-gray-600 hover:text-primary transition-colors">
+                Контакты
+              </a>
             </nav>
-            <Button className="bg-primary hover:bg-primary/90 text-white font-medium">
+            <Button className="bg-primary hover:bg-primary/90 text-white font-medium" onClick={() => window.open('https://wa.me/79173541792', '_blank')}>
               Записаться на прием
             </Button>
           </div>
@@ -88,14 +98,14 @@ export default function Index() {
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Современная дерматология с индивидуальным подходом к каждому пациенту. 
-              Опыт работы более 15 лет, тысячи довольных пациентов.
+              Опыт работы более 25 лет, тысячи довольных пациентов.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium px-8">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium px-8" onClick={() => window.open('https://wa.me/79173541792', '_blank')}>
                 <Icon name="Calendar" className="mr-2" size={20} />
                 Записаться на консультацию
               </Button>
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10" onClick={() => navigator.clipboard.writeText('79173541792')}>
                 <Icon name="Phone" className="mr-2" size={20} />
                 Позвонить
               </Button>
@@ -119,7 +129,7 @@ export default function Index() {
               <div>
                 <Badge className="mb-4 bg-primary/10 text-primary">О враче</Badge>
                 <h3 className="text-4xl font-heading font-bold text-gray-800 mb-6">
-                  Галина Геннадьевна
+                  Галина Тюлис
                 </h3>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                   Врач-дерматовенеролог высшей категории с 25-летним опытом работы. 
@@ -237,10 +247,7 @@ export default function Index() {
                 <p className="text-gray-600">г. Уфа, ул. Проспект Октября 78/3</p>
               </div>
             </div>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium px-8 mb-8">
-              <Icon name="Calendar" className="mr-2" size={20} />
-              Записаться онлайн
-            </Button>
+
           </div>
         </div>
       </section>
@@ -253,14 +260,14 @@ export default function Index() {
               Следите за нами в социальных сетях
             </h4>
             <div className="flex justify-center space-x-6">
-              <a href="#" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
+              <a href="https://www.instagram.com/dermatolog_galina?igsh=ZndpeWhudm9oZmty&utm_source=qr" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Icon name="Instagram" className="text-primary" size={24} />
               </a>
-              <a href="#" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <Icon name="Facebook" className="text-primary" size={24} />
+              <a href="https://t.me/+PVPlQijh18YxMWQy" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <Icon name="Send" className="text-primary" size={24} />
               </a>
-              <a href="#" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <Icon name="MessageCircle" className="text-primary" size={24} />
+              <a href="https://vk.com/medicalufa" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <Icon name="Users" className="text-primary" size={24} />
               </a>
             </div>
           </div>

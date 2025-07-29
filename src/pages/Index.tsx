@@ -135,23 +135,33 @@ export default function Index() {
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <Icon name="GraduationCap" className="text-primary mr-3" size={24} />
+                    <div className="w-8 h-8 flex items-center justify-center mr-3">
+                      <Icon name="GraduationCap" className="text-primary" size={32} />
+                    </div>
                     <span className="text-gray-700">БГМУ, 1995 г</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Award" className="text-primary mr-3" size={24} />
+                    <div className="w-8 h-8 flex items-center justify-center mr-3">
+                      <Icon name="Award" className="text-primary" size={32} />
+                    </div>
                     <span className="text-gray-700">Специализация: дерматология, косметология, психология</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Users" className="text-primary mr-3" size={24} />
+                    <div className="w-8 h-8 flex items-center justify-center mr-3">
+                      <Icon name="Users" className="text-primary" size={32} />
+                    </div>
                     <span className="text-gray-700">Более 5000 довольных пациентов</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="BookOpen" className="text-primary mr-3" size={32} />
+                    <div className="w-8 h-8 flex items-center justify-center mr-3">
+                      <Icon name="BookOpen" className="text-primary" size={32} />
+                    </div>
                     <span className="text-gray-700">Прошла обучение в гештальт-терапии, психосинтезе, коучинге и психосоматике PSY2.0</span>
                   </div>
                   <div className="flex items-center">
-                    <Icon name="Heart" className="text-primary mr-3" size={32} />
+                    <div className="w-8 h-8 flex items-center justify-center mr-3">
+                      <Icon name="Heart" className="text-primary" size={32} />
+                    </div>
                     <span className="text-gray-700">Помогаю лечить не только проявления болезни, но и находить её глубинные причины</span>
                   </div>
                 </div>

@@ -227,14 +227,14 @@ export default function Index() {
                   <Icon name="Phone" className="text-primary" size={32} />
                 </div>
                 <h4 className="text-xl font-heading font-semibold mb-2">Телефон</h4>
-                <p className="text-gray-600">+7 (495) 123-45-67</p>
+                <p className="text-gray-600">8 (917) 354-17-92</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
                   <Icon name="MapPin" className="text-primary" size={32} />
                 </div>
                 <h4 className="text-xl font-heading font-semibold mb-2">Адрес</h4>
-                <p className="text-gray-600">г. Москва, ул. Медицинская, д. 15</p>
+                <p className="text-gray-600">г. Уфа, ул. Проспект Октября 78/3</p>
               </div>
             </div>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white font-medium px-8 mb-8">

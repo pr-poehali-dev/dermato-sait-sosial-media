@@ -63,7 +63,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="Heart" className="text-primary" size={32} />
-              <h1 className="text-2xl font-heading font-bold text-gray-800">ДерматоКлиник</h1>
+              <h1 className="text-2xl font-heading font-bold text-gray-800">Ядарика</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
               {['Главная', 'Услуги', 'О враче', 'Отзывы', 'Контакты'].map((item) => (
@@ -273,10 +273,10 @@ export default function Index() {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Icon name="Heart" className="text-primary" size={24} />
-              <span className="text-xl font-heading font-bold">ДерматоКлиник</span>
+              <span className="text-xl font-heading font-bold">Ядарика</span>
             </div>
             <p className="text-gray-400">
-              © 2024 ДерматоКлиник. Все права защищены.
+              © 2024 Ядарика. Все права защищены.
             </p>
           </div>
         </div>

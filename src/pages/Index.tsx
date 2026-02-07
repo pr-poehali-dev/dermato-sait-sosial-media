@@ -138,7 +138,7 @@ export default function Index() {
                     <div className="w-8 h-8 flex items-center justify-center mr-3">
                       <Icon name="GraduationCap" className="text-primary" size={32} />
                     </div>
-                    <span className="text-gray-700">БГМУ, 1995 г</span>
+                    <span className="text-gray-700">БГМУ</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-8 h-8 flex items-center justify-center mr-3">
@@ -299,7 +299,7 @@ export default function Index() {
               <span className="text-xl font-heading font-bold">Ядарика</span>
             </div>
             <p className="text-gray-400">
-              © 2025 Ядарика. Все права защищены.
+              © 2026 Ядарика. Все права защищены.
             </p>
           </div>
         </div>
